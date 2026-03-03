@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "badge": "Your Complete Health Care Companion",
+    "title": "Your Health,",
+    "titleHighlight": "Our Priority",
+    "subtitle": "Comprehensive healthcare solutions at your fingertips. From symptom checking to specialized care, we're here to support your wellness journey every step of the way.",
+    "primaryButton": "Check Your Symptoms",
+    "secondaryButton": "Diet Planner",
+    "features": {
+      "secure": "Secure & Confidential",
+      "verified": "Medically Verified",
+      "expert": "Expert Care Network"
+    }
+  },
+  "careSection": {
+    "badge": "Your Health Care Options",
+    "heading": "Find the Perfect",
+    "highlight": "Care",
+    "subtext": "Discover healthcare solutions tailored to your specific needs and preferences"
+  },
+  "symptomsSection": {
+    "badge": "Most Common Symptoms",
+    "heading": "Quick Symptom Guide",
+    "subtext": "Understand your symptoms and find the right specialist for your needs"
+  },
+  "careOptions": {
+    "telemedicine": { "title": "Telemedicine" },
+    "clinics": { "title": "Local Clinics" },
+    "specialists": { "title": "Specialist Doctors" },
+    "medicine": { "title": "Find Medicine" },
+    "commonIllnesses": { "title": "Common Illnesses" },
+    "cycleTracker": { "title": "Menstrual Cycle Tracker" }
+  },
+  "symptoms": {
+    "fever": { "title": "Fever", "description": "Fever is a temporary increase in body temperature, often due to an infection...", "specialist": "General Physician" },
+    "gastric": { "title": "Gastric / Colic Pain", "description": "Gastric pain can result from indigestion, acid reflux, or more serious issues...", "specialist": "Gastroenterologist" },
+    "bodyAches": { "title": "Body Aches", "description": "Body aches are generalized pain in muscles or joints...", "specialist": "General Physician" },
+    "dustAllergy": { "title": "Dust Allergy", "description": "Dust allergy can cause sneezing, coughing, itchy eyes...", "specialist": "Allergist / Immunologist" },
+    "migraine": { "title": "Migraine", "description": "Migraines are severe headaches often accompanied by nausea...", "specialist": "Neurologist" },
+    "cough": { "title": "Cough", "description": "A cough may be caused by infections, allergies, or irritants...", "specialist": "Pulmonologist / General Physician" },
+    "skinAllergy": { "title": "Skin Allergy", "description": "Skin allergies can present as rashes, redness, itching, or swelling...", "specialist": "Dermatologist" },
+    "eyeInfections": { "title": "Eye Infections", "description": "Eye infections like conjunctivitis cause redness, itching, pain...", "specialist": "Ophthalmologist" }
+  }
+}

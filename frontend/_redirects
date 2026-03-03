@@ -1,0 +1,12 @@
+# Clinic routes - specific handling
+/clinic/* /index.html 200
+/clinic /index.html 200
+
+# Video call routes
+/video-call/* /index.html 200
+
+# Telemedicine routes  
+/telemedicine/* /index.html 200
+
+# All other routes fallback
+/* /index.html 200

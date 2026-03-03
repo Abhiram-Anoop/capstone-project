@@ -1,0 +1,193 @@
+{
+  "clinicDashboard": {
+    "title": "ਕਲੀਨਿਕ ਡੈਸ਼ਬੋਰਡ",
+    "subtitle": "ਸਰਕਾਰੀ ਪਿੰਡੀ ਸਿਹਤ ਕੇਂਦਰ",
+    "stats": {
+      "patientsToday": "ਅੱਜ ਦੇ ਮਰੀਜ਼",
+      "inQueue": "ਕਤਾਰ ਵਿੱਚ", 
+      "inConsultation": "ਸਲਾਹ ਵਿੱਚ",
+      "completed": "ਪੂਰਾ"
+    },
+    "queue": {
+      "title": "ਮਰੀਜ਼ ਕਤਾਰ",
+      "addPatient": "ਮਰੀਜ਼ ਜੋੜੋ",
+      "search": "ਮਰੀਜ਼ ਲੱਭੋ...",
+      "allStatus": "ਸਾਰੀ ਹਾਲਤ",
+      "waiting": "ਉਡੀਕ ਵਿੱਚ",
+      "inConsultation": "ਸਲਾਹ ਵਿੱਚ",
+      "completed": "ਪੂਰਾ",
+      "noShow": "ਨਹੀਂ ਆਇਆ",
+      "noPatients": "ਕਤਾਰ ਵਿੱਚ ਕੋਈ ਮਰੀਜ਼ ਨਹੀਂ",
+      "emergency": "ਐਮਰਜੈਂਸੀ",
+      "actions": {
+        "start": "ਸ਼ੁਰੂ ਕਰੋ",
+        "video": "ਵੀਡੀਓ",
+        "noShow": "ਨਹੀਂ ਆਇਆ",
+        "inProgress": "ਚੱਲ ਰਿਹਾ ਹੈ..."
+      }
+    },
+    "quickActions": {
+      "title": "ਤੁਰੰਤ ਕਾਰਵਾਈਆਂ",
+      "registerPatient": "ਨਵਾਂ ਮਰੀਜ਼ ਰਜਿਸਟਰ ਕਰੋ",
+      "medicineInventory": "ਦਵਾਈ ਸਟਾਕ",
+      "viewReports": "ਰਿਪੋਰਟਾਂ ਦੇਖੋ",
+      "refreshData": "ਡੇਟਾ ਰਿਫ੍ਰੈਸ਼ ਕਰੋ"
+    },
+    "schedule": {
+      "title": "ਅੱਜ ਦਾ ਸਮਾਂ-ਸਾਰਣੀ",
+      "clinicOpens": "ਕਲੀਨਿਕ ਖੁੱਲਦਾ ਹੈ:",
+      "lunchBreak": "ਦੁਪਹਿਰ ਦਾ ਖਾਣਾ:",
+      "clinicCloses": "ਕਲੀਨਿਕ ਬੰਦ:",
+      "averageWait": "ਔਸਤ ਉਡੀਕ ਸਮਾਂ:"
+    },
+    "notifications": {
+      "title": "ਹਾਲੀਆ ਸੂਚਨਾਵਾਂ",
+      "connectionRestored": "ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਬਹਾਲ",
+      "connectionLost": "ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਟੁੱਟਿਆ - ਔਫਲਾਈਨ ਮੋਡ ਵਿੱਚ ਕੰਮ ਕਰ ਰਹੇ ਹਾਂ",
+      "newPatient": "ਨਵਾਂ ਮਰੀਜ਼ ਜੋੜਿਆ ਗਿਆ:",
+      "emergencyPatient": "ਐਮਰਜੈਂਸੀ:",
+      "consultationCompleted": "ਸਲਾਹ ਪੂਰੀ ਹੋਈ"
+    },
+    "status": {
+      "online": "ਔਨਲਾਈਨ",
+      "offline": "ਔਫਲਾਈਨ",
+      "lastSync": "ਆਖਰੀ ਸਿੰਕ:"
+    },
+    "emergencyAlert": "{count} ਐਮਰਜੈਂਸੀ ਮਰੀਜ਼ ਉਡੀਕ ਵਿੱਚ"
+  },
+  "patientRegistration": {
+    "title": "ਮਰੀਜ਼ ਰਜਿਸਟਰੇਸ਼ਨ", 
+    "subtitle": "ਸਿਸਟਮ ਵਿੱਚ ਨਵਾਂ ਮਰੀਜ਼ ਜੋੜੋ",
+    "personalInfo": {
+      "title": "ਨਿੱਜੀ ਜਾਣਕਾਰੀ",
+      "fullName": "ਪੂਰਾ ਨਾਂ",
+      "age": "ਉਮਰ",
+      "gender": "ਲਿੰਗ",
+      "phone": "ਫ਼ੋਨ ਨੰਬਰ",
+      "male": "ਮਰਦ",
+      "female": "ਔਰਤ", 
+      "other": "ਹੋਰ"
+    },
+    "locationInfo": {
+      "title": "ਸਥਾਨ ਦੀ ਜਾਣਕਾਰੀ",
+      "village": "ਪਿੰਡ/ਸ਼ਹਿਰ",
+      "emergencyContact": "ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ",
+      "address": "ਪਤਾ",
+      "selectVillage": "ਪਿੰਡ/ਸ਼ਹਿਰ ਚੁਣੋ"
+    },
+    "medicalInfo": {
+      "title": "ਡਾਕਟਰੀ ਜਾਣਕਾਰੀ",
+      "symptoms": "ਮੌਜੂਦਾ ਲੱਛਣ / ਆਉਣ ਦਾ ਕਾਰਨ",
+      "previousIllnesses": "ਪੁਰਾਣੀਆਂ ਬੀਮਾਰੀਆਂ",
+      "medications": "ਮੌਜੂਦਾ ਦਵਾਈਆਂ",
+      "symptomsPlaceholder": "ਲੱਛਣ ਜਾਂ ਆਉਣ ਦਾ ਕਾਰਨ ਦੱਸੋ",
+      "previousPlaceholder": "ਕੋਈ ਪੁਰਾਣੀ ਬੀਮਾਰੀ ਜਾਂ ਹਾਲਤ",
+      "medicationsPlaceholder": "ਮੌਜੂਦਾ ਦਵਾਈਆਂ (ਜੇ ਕੋਈ ਹੈ)",
+      "recording": "ਲੱਛਣ ਰਿਕਾਰਡ ਕਰ ਰਹੇ ਹਾਂ..."
+    },
+    "serviceSelection": {
+      "title": "ਲੋੜੀਂਦੀ ਸੇਵਾ",
+      "priority": "ਤਰਜੀਹ ਦਰਜਾ",
+      "normal": "ਆਮ",
+      "high": "ਉੱਚ",
+      "emergency": "ਐਮਰਜੈਂਸੀ",
+      "services": {
+        "consultation": "ਆਮ ਸਲਾਹ",
+        "videoConsultation": "ਵੀਡੀਓ ਸਲਾਹ", 
+        "vaccination": "ਟੀਕਾਕਰਨ",
+        "healthCheckup": "ਸਿਹਤ ਜਾਂਚ",
+        "medicineCollection": "ਦਵਾਈ ਵੰਡ",
+        "emergencyCare": "ਐਮਰਜੈਂਸੀ ਦੇਖਭਾਲ"
+      }
+    },
+    "photo": {
+      "title": "ਮਰੀਜ਼ ਦੀ ਫੋਟੋ (ਵਿਕਲਪਿਕ)",
+      "takePhoto": "ਫੋਟੋ ਖਿੱਚੋ",
+      "description": "ਵਿਕਲਪਿਕ: ਰਿਕਾਰਡ ਲਈ ਫੋਟੋ ਖਿੱਚੋ"
+    },
+    "actions": {
+      "resetForm": "ਫਾਰਮ ਰੀਸੈੱਟ ਕਰੋ",
+      "cancel": "ਰੱਦ ਕਰੋ", 
+      "register": "ਮਰੀਜ਼ ਰਜਿਸਟਰ ਕਰੋ",
+      "registering": "ਰਜਿਸਟਰ ਕਰ ਰਹੇ ਹਾਂ..."
+    },
+    "success": {
+      "title": "ਮਰੀਜ਼ ਸਫਲਤਾਪੂਰਵਕ ਰਜਿਸਟਰ ਹੋਇਆ!",
+      "message": "{name} ਨੂੰ ਸਿਸਟਮ ਅਤੇ ਕਤਾਰ ਵਿੱਚ ਜੋੜ ਦਿੱਤਾ ਗਿਆ।",
+      "service": "ਸੇਵਾ:",
+      "priority": "ਤਰਜੀਹ:",
+      "goToDashboard": "ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਜਾਓ"
+    },
+    "validation": {
+      "nameRequired": "ਮਰੀਜ਼ ਦਾ ਨਾਂ ਜ਼ਰੂਰੀ ਹੈ",
+      "ageRequired": "ਕਿਰਪਾ ਕਰਕੇ ਸਹੀ ਉਮਰ ਦਾਖਲ ਕਰੋ (1-120)",
+      "phoneRequired": "ਫ਼ੋਨ ਨੰਬਰ ਜ਼ਰੂਰੀ ਹੈ",
+      "phoneInvalid": "ਕਿਰਪਾ ਕਰਕੇ ਸਹੀ 10-ਅੰਕੀ ਫ਼ੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ",
+      "villageRequired": "ਪਿੰਡ/ਸ਼ਹਿਰ ਜ਼ਰੂਰੀ ਹੈ",
+      "symptomsRequired": "ਕਿਰਪਾ ਕਰਕੇ ਲੱਛਣ ਜਾਂ ਆਉਣ ਦਾ ਕਾਰਨ ਦੱਸੋ"
+    }
+  },
+  "videoCall": {
+    "title": "ਵੀਡੀਓ ਸਲਾਹ",
+    "connecting": "ਵੀਡੀਓ ਕਾਲ ਨਾਲ ਜੁੜ ਰਹੇ ਹਾਂ...",
+    "callError": "ਕਾਲ ਗਲਤੀ",
+    "retry": "ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+    "backToDashboard": "ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਵਾਪਸ",
+    "patientInfo": {
+      "title": "ਮਰੀਜ਼ ਦੀ ਜਾਣਕਾਰੀ",
+      "name": "ਨਾਂ:",
+      "age": "ਉਮਰ:",
+      "village": "ਪਿੰਡ:",
+      "phone": "ਫ਼ੋਨ:",
+      "symptoms": "ਮੌਜੂਦਾ ਲੱਛਣ:",
+      "previousVisits": "ਪਿਛਲੀਆਂ ਮੁਲਾਕਾਤਾਂ:"
+    },
+    "notes": {
+      "title": "ਸਲਾਹ ਨੋਟਸ",
+      "doctorNotes": "ਡਾਕਟਰ ਦੇ ਨੋਟਸ:",
+      "staffNotes": "ਸਟਾਫ਼ ਨੋਟਸ:",
+      "doctorPlaceholder": "ਡਾਕਟਰ ਦੇ ਨਿਰੀਖਣ ਅਤੇ ਸਿਫ਼ਾਰਸ਼ਾਂ...",
+      "staffPlaceholder": "ਸਟਾਫ਼ ਦੇ ਨਿਰੀਖਣ, ਅਨੁਵਾਦ ਨੋਟਸ, ਆਦਿ..."
+    },
+    "controls": {
+      "staffControls": "ਸਟਾਫ਼ ਨਿਯੰਤਰਣ:",
+      "endCall": "ਕਾਲ ਖਤਮ ਕਰੋ"
+    },
+    "quickActions": {
+      "title": "ਤੁਰੰਤ ਕਾਰਵਾਈਆਂ",
+      "translationActive": "✓ ਅਨੁਵਾਦ ਸਕਿਰਿਆ",
+      "needTranslation": "ਅਨੁਵਾਦ ਸਹਾਇਤਾ ਚਾਹੀਦੀ ਹੈ",
+      "sendPrescription": "ਨੁਸਖਾ ਭੇਜੋ",
+      "scheduleFollowup": "ਫਾਲੋ-ਅੱਪ ਸ਼ੈਡਿਊਲ ਕਰੋ",
+      "generateReport": "ਰਿਪੋਰਟ ਬਣਾਓ"
+    },
+    "connection": {
+      "good": "ਚੰਗਾ ਕਨੈਕਸ਼ਨ",
+      "medium": "ਮੱਧਮ ਕਨੈਕਸ਼ਨ", 
+      "poor": "ਕਮਜ਼ੋਰ ਕਨੈਕਸ਼ਨ"
+    }
+  },
+  "common": {
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "error": "ਗਲਤੀ",
+    "success": "ਸਫਲਤਾ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "save": "ਸੇਵ ਕਰੋ",
+    "delete": "ਮਿਟਾਓ",
+    "edit": "ਸੰਪਾਦਿਤ ਕਰੋ",
+    "search": "ਖੋਜ",
+    "filter": "ਫਿਲਟਰ",
+    "all": "ਸਾਰੇ",
+    "none": "ਕੋਈ ਨਹੀਂ",
+    "yes": "ਹਾਂ",
+    "no": "ਨਹੀਂ",
+    "close": "ਬੰਦ ਕਰੋ",
+    "open": "ਖੁੱਲਾ",
+    "closed": "ਬੰਦ",
+    "minutes": "ਮਿੰਟ",
+    "hours": "ਘੰਟੇ",
+    "days": "ਦਿਨ",
+    "weeks": "ਹਫ਼ਤੇ",
+    "months": "ਮਹੀਨੇ"
+  }
+}

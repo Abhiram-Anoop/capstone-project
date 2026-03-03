@@ -1,0 +1,24 @@
+{
+  "header": {
+    "navigation": {
+      "home": "होम",
+      "symptoms": "लक्षण",
+      "findDoctor": "डॉक्टर खोजें",
+      "fitness": "फिटनेस"
+    },
+    "actions": {
+      "getStarted": "शुरू करें",
+      "login": "लॉग इन करें",
+      "logout": "लॉग आउट करें",
+      "welcome": "स्वागत है"
+    },
+    "language": {
+      "selector": "भाषा"
+    }
+  },
+  "findNearbyClinics": {
+    "line1": "आस-पास के",
+    "line2": "क्लीनिक खोजें"
+  }
+}
+

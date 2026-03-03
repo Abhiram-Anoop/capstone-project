@@ -1,0 +1,193 @@
+{
+  "clinicDashboard": {
+    "title": "क्लिनिक डैशबोर्ड",
+    "subtitle": "सरकारी ग्रामीण स्वास्थ्य केंद्र",
+    "stats": {
+      "patientsToday": "आज के मरीज़",
+      "inQueue": "कतार में", 
+      "inConsultation": "परामर्श में",
+      "completed": "पूर्ण"
+    },
+    "queue": {
+      "title": "मरीज़ कतार",
+      "addPatient": "मरीज़ जोड़ें",
+      "search": "मरीज़ खोजें...",
+      "allStatus": "सभी स्थिति",
+      "waiting": "प्रतीक्षा में",
+      "inConsultation": "परामर्श में",
+      "completed": "पूर्ण",
+      "noShow": "नहीं आया",
+      "noPatients": "कतार में कोई मरीज़ नहीं",
+      "emergency": "आपातकाल",
+      "actions": {
+        "start": "शुरू करें",
+        "video": "वीडियो",
+        "noShow": "नहीं आया",
+        "inProgress": "चल रहा है..."
+      }
+    },
+    "quickActions": {
+      "title": "त्वरित कार्य",
+      "registerPatient": "नया मरीज़ पंजीकृत करें",
+      "medicineInventory": "दवा स्टॉक",
+      "viewReports": "रिपोर्ट देखें",
+      "refreshData": "डेटा रीफ्रेश करें"
+    },
+    "schedule": {
+      "title": "आज का कार्यक्रम",
+      "clinicOpens": "क्लिनिक खुलता है:",
+      "lunchBreak": "दोपहर का भोजन:",
+      "clinicCloses": "क्लिनिक बंद:",
+      "averageWait": "औसत प्रतीक्षा समय:"
+    },
+    "notifications": {
+      "title": "हाल की सूचनाएं",
+      "connectionRestored": "इंटरनेट कनेक्शन बहाल",
+      "connectionLost": "इंटरनेट कनेक्शन टूटा - ऑफलाइन मोड में काम कर रहे हैं",
+      "newPatient": "नया मरीज़ जोड़ा गया:",
+      "emergencyPatient": "आपातकाल:",
+      "consultationCompleted": "परामर्श पूरा हुआ"
+    },
+    "status": {
+      "online": "ऑनलाइन",
+      "offline": "ऑफलाइन",
+      "lastSync": "अंतिम सिंक:"
+    },
+    "emergencyAlert": "{count} आपातकालीन मरीज़ प्रतीक्षा में"
+  },
+  "patientRegistration": {
+    "title": "मरीज़ पंजीकरण", 
+    "subtitle": "सिस्टम में नया मरीज़ जोड़ें",
+    "personalInfo": {
+      "title": "व्यक्तिगत जानकारी",
+      "fullName": "पूरा नाम",
+      "age": "उम्र",
+      "gender": "लिंग",
+      "phone": "फ़ोन नंबर",
+      "male": "पुरुष",
+      "female": "महिला", 
+      "other": "अन्य"
+    },
+    "locationInfo": {
+      "title": "स्थान की जानकारी",
+      "village": "गांव/शहर",
+      "emergencyContact": "आपातकालीन संपर्क",
+      "address": "पता",
+      "selectVillage": "गांव/शहर चुनें"
+    },
+    "medicalInfo": {
+      "title": "चिकित्सा जानकारी",
+      "symptoms": "वर्तमान लक्षण / आने का कारण",
+      "previousIllnesses": "पुरानी बीमारियां",
+      "medications": "वर्तमान दवाएं",
+      "symptomsPlaceholder": "लक्षण या आने का कारण बताएं",
+      "previousPlaceholder": "कोई पुरानी बीमारी या स्थिति",
+      "medicationsPlaceholder": "वर्तमान दवाएं (यदि कोई हो)",
+      "recording": "लक्षण रिकॉर्ड कर रहे हैं..."
+    },
+    "serviceSelection": {
+      "title": "आवश्यक सेवा",
+      "priority": "प्राथमिकता स्तर",
+      "normal": "सामान्य",
+      "high": "उच्च",
+      "emergency": "आपातकाल",
+      "services": {
+        "consultation": "सामान्य परामर्श",
+        "videoConsultation": "वीडियो परामर्श", 
+        "vaccination": "टीकाकरण",
+        "healthCheckup": "स्वास्थ्य जांच",
+        "medicineCollection": "दवा वितरण",
+        "emergencyCare": "आपातकालीन देखभाल"
+      }
+    },
+    "photo": {
+      "title": "मरीज़ की फोटो (वैकल्पिक)",
+      "takePhoto": "फोटो लें",
+      "description": "वैकल्पिक: रिकॉर्ड के लिए फोटो लें"
+    },
+    "actions": {
+      "resetForm": "फॉर्म रीसेट करें",
+      "cancel": "रद्द करें", 
+      "register": "मरीज़ पंजीकृत करें",
+      "registering": "पंजीकरण कर रहे हैं..."
+    },
+    "success": {
+      "title": "मरीज़ सफलतापूर्वक पंजीकृत!",
+      "message": "{name} को सिस्टम और कतार में जोड़ दिया गया।",
+      "service": "सेवा:",
+      "priority": "प्राथमिकता:",
+      "goToDashboard": "डैशबोर्ड पर जाएं"
+    },
+    "validation": {
+      "nameRequired": "मरीज़ का नाम आवश्यक है",
+      "ageRequired": "कृपया वैध उम्र दर्ज करें (1-120)",
+      "phoneRequired": "फ़ोन नंबर आवश्यक है",
+      "phoneInvalid": "कृपया वैध 10-अंकीय फ़ोन नंबर दर्ज करें",
+      "villageRequired": "गांव/शहर आवश्यक है",
+      "symptomsRequired": "कृपया लक्षण या आने का कारण बताएं"
+    }
+  },
+  "videoCall": {
+    "title": "वीडियो परामर्श",
+    "connecting": "वीडियो कॉल से जुड़ रहे हैं...",
+    "callError": "कॉल त्रुटि",
+    "retry": "फिर कोशिश करें",
+    "backToDashboard": "डैशबोर्ड पर वापस",
+    "patientInfo": {
+      "title": "मरीज़ की जानकारी",
+      "name": "नाम:",
+      "age": "उम्र:",
+      "village": "गांव:",
+      "phone": "फ़ोन:",
+      "symptoms": "वर्तमान लक्षण:",
+      "previousVisits": "पिछली मुलाकातें:"
+    },
+    "notes": {
+      "title": "परामर्श नोट्स",
+      "doctorNotes": "डॉक्टर के नोट्स:",
+      "staffNotes": "स्टाफ नोट्स:",
+      "doctorPlaceholder": "डॉक्टर की टिप्पणियां और सुझाव...",
+      "staffPlaceholder": "स्टाफ की टिप्पणियां, अनुवाद नोट्स, आदि..."
+    },
+    "controls": {
+      "staffControls": "स्टाफ नियंत्रण:",
+      "endCall": "कॉल समाप्त करें"
+    },
+    "quickActions": {
+      "title": "त्वरित कार्य",
+      "translationActive": "✓ अनुवाद सक्रिय",
+      "needTranslation": "अनुवाद सहायता चाहिए",
+      "sendPrescription": "पर्चा भेजें",
+      "scheduleFollowup": "फॉलो-अप शेड्यूल करें",
+      "generateReport": "रिपोर्ट बनाएं"
+    },
+    "connection": {
+      "good": "अच्छा कनेक्शन",
+      "medium": "मध्यम कनेक्शन", 
+      "poor": "खराब कनेक्शन"
+    }
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "cancel": "रद्द करें",
+    "save": "सेव करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "all": "सभी",
+    "none": "कोई नहीं",
+    "yes": "हां",
+    "no": "नहीं",
+    "close": "बंद करें",
+    "open": "खुला",
+    "closed": "बंद",
+    "minutes": "मिनट",
+    "hours": "घंटे",
+    "days": "दिन",
+    "weeks": "सप्ताह",
+    "months": "महीने"
+  }
+}

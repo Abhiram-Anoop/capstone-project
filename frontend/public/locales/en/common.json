@@ -1,0 +1,24 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Home",
+      "symptoms": "Symptoms",
+      "findDoctor": "Find Doctor",
+      "fitness": "Fitness"
+    },
+    "actions": {
+      "getStarted": "Get Started",
+      "login": "Login",
+      "logout": "Logout",
+      "welcome": "Welcome"
+    },
+    "language": {
+      "selector": "Language"
+    }
+  },
+  "findNearbyClinics": {
+    "line1": "Find Nearby",
+    "line2": "Clinics"
+  }
+}
+

@@ -1,0 +1,92 @@
+{
+  "title": "Symptom Assessment",
+  "description": "Please provide your personal information and select all symptoms you are currently experiencing.",
+  "progress": {
+    "label": "Patient Info & Symptoms",
+    "step": "Step {{step}} of 2"
+  },
+  "step1": {
+    "title": "Patient Details",
+    "description": "Please provide your personal information.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "John Doe",
+    "ageLabel": "Age",
+    "agePlaceholder": "30",
+    "bpLabel": "Blood Pressure (mmHg)",
+    "bpPlaceholder": "120/80",
+    "pulseLabel": "Pulse Rate (bpm)",
+    "pulsePlaceholder": "75",
+    "continueButton": "Continue"
+  },
+  "step2": {
+    "filterTitle": "Filter by Category",
+    "summaryTitle": "Selected Symptoms",
+    "selectionTitle": "Select Your Symptoms",
+    "selectionDescription": "Check all symptoms that apply to your current condition.",
+    "backButton": "Back",
+    "submitButton": "Submit Symptoms Assessment"
+  },
+  "alerts": {
+    "nameAgeRequired": "Please fill in your name and age.",
+    "symptomRequired": "Please select at least one symptom.",
+    "submitSuccess": "Your symptom assessment has been submitted successfully!",
+    "submitError": "There was an error submitting your data. Please try again."
+  },
+  "categories": {
+    "all": "All",
+    "general": "General",
+    "respiratory": "Respiratory",
+    "neurological": "Neurological",
+    "sensory": "Sensory",
+    "gastrointestinal": "Gastrointestinal"
+  },
+  "symptoms": {
+    "fever": { "name": "Feverr", "category": "General" },
+    "fatigue": { "name": "Fatigue", "category": "General" },
+    "chills": { "name": "Chills", "category": "General" },
+    "weakness": { "name": "Weakness", "category": "General" },
+    "cough": { "name": "Cough", "category": "Respiratory" },
+    "shortness-breath": { "name": "Shortness of breath", "category": "Respiratory" },
+    "chest-pain": { "name": "Chest pain", "category": "Respiratory" },
+    "sore-throat": { "name": "Sore throat", "category": "Respiratory" },
+    "headache": { "name": "Headache", "category": "Neurological" },
+    "dizziness": { "name": "Dizziness", "category": "Neurological" },
+    "confusion": { "name": "Confusion", "category": "Neurological" },
+    "memory-loss": { "name": "Memory problems", "category": "Neurological" },
+    "vision-changes": { "name": "Vision changes", "category": "Sensory" },
+    "hearing-loss": { "name": "Hearing problems", "category": "Sensory" },
+    "ringing-ears": { "name": "Ringing in ears", "category": "Sensory" },
+    "nausea": { "name": "Nausea", "category": "Gastrointestinal" },
+    "vomiting": { "name": "Vomiting", "category": "Gastrointestinal" },
+    "diarrhea": { "name": "Diarrhea", "category": "Gastrointestinal" },
+    "abdominal-pain": { "name": "Stomach ache", "category": "Gastrointestinal" }
+  },
+  "vocalInput": {
+    "title": "Symptom Assessment by Voice",
+    "goBackButton": "← Go Back",
+    "prompts": [
+      "What is your name?",
+      "What is your age?",
+      "What is your blood pressure?",
+      "What is your body temperature?",
+      "Please describe your symptoms."
+    ],
+    "labels": {
+      "name": "Full Name",
+      "age": "Age",
+      "bloodPressure": "Blood Pressure",
+      "temperature": "Temperature",
+      "symptoms": "Symptoms"
+    },
+    "buttons": {
+      "back": "Back",
+      "next": "Next",
+      "submit": "Submit Assessment"
+    },
+    "alerts": {
+      "noSupport": "Your browser does not support the Web Speech API. Please use Google Chrome.",
+      "allDetailsRequired": "Please provide all required details and symptoms.",
+      "submitError": "There was an error submitting your data. Please try again."
+    }
+  }
+}

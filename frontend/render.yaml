@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-doctor-assistant
+    env: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: redirect
+        source: /*
+        destination: /index.html

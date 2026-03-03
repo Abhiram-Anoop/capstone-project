@@ -1,0 +1,24 @@
+{
+  "header": {
+    "navigation": {
+      "home": "ਘਰ",
+      "symptoms": "ਲੱਛਣ",
+      "findDoctor": "ਡਾਕਟਰ ਲੱਭੋ",
+      "fitness": "ਤੰਦਰੁਸਤੀ"
+    },
+    "actions": {
+      "getStarted": "ਸ਼ੁਰੂਆਤ ਕਰੋ",
+      "login": "ਲੌਗਇਨ",
+      "logout": "ਲੌਗਆਉਟ",
+      "welcome": "ਸੁਆਗਤ"
+    },
+    "language": {
+      "selector": "ਭਾਸ਼ਾ"
+    }
+  },
+  "findNearbyClinics": {
+    "line1": "ਨੇੜਲੇ",
+    "line2": "ਕਲੀਨਿਕ ਲੱਭੋ"
+  }
+}
+

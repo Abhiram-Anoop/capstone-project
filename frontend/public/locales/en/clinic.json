@@ -1,0 +1,193 @@
+{
+  "clinicDashboard": {
+    "title": "Clinic Dashboard",
+    "subtitle": "Government Rural Health Center",
+    "stats": {
+      "patientsToday": "Patients Today",
+      "inQueue": "In Queue", 
+      "inConsultation": "In Consultation",
+      "completed": "Completed"
+    },
+    "queue": {
+      "title": "Patient Queue",
+      "addPatient": "Add Patient",
+      "search": "Search patients...",
+      "allStatus": "All Status",
+      "waiting": "Waiting",
+      "inConsultation": "In Consultation",
+      "completed": "Completed",
+      "noShow": "No Show",
+      "noPatients": "No patients in queue",
+      "emergency": "EMERGENCY",
+      "actions": {
+        "start": "Start",
+        "video": "Video",
+        "noShow": "No Show",
+        "inProgress": "In Progress..."
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "registerPatient": "Register New Patient",
+      "medicineInventory": "Medicine Inventory",
+      "viewReports": "View Reports",
+      "refreshData": "Refresh Data"
+    },
+    "schedule": {
+      "title": "Today's Schedule",
+      "clinicOpens": "Clinic Opens:",
+      "lunchBreak": "Lunch Break:",
+      "clinicCloses": "Clinic Closes:",
+      "averageWait": "Average Wait Time:"
+    },
+    "notifications": {
+      "title": "Recent Notifications",
+      "connectionRestored": "Internet connection restored",
+      "connectionLost": "Internet connection lost - operating in offline mode",
+      "newPatient": "New patient added:",
+      "emergencyPatient": "EMERGENCY:",
+      "consultationCompleted": "Consultation completed for"
+    },
+    "status": {
+      "online": "Online",
+      "offline": "Offline",
+      "lastSync": "Last sync:"
+    },
+    "emergencyAlert": "{count} emergency patient(s) waiting"
+  },
+  "patientRegistration": {
+    "title": "Patient Registration", 
+    "subtitle": "Add new patient to the system",
+    "personalInfo": {
+      "title": "Personal Information",
+      "fullName": "Full Name",
+      "age": "Age",
+      "gender": "Gender",
+      "phone": "Phone Number",
+      "male": "Male",
+      "female": "Female", 
+      "other": "Other"
+    },
+    "locationInfo": {
+      "title": "Location Information",
+      "village": "Village/City",
+      "emergencyContact": "Emergency Contact",
+      "address": "Address",
+      "selectVillage": "Select Village/City"
+    },
+    "medicalInfo": {
+      "title": "Medical Information",
+      "symptoms": "Current Symptoms / Reason for Visit",
+      "previousIllnesses": "Previous Illnesses",
+      "medications": "Current Medications",
+      "symptomsPlaceholder": "Describe symptoms or reason for visit",
+      "previousPlaceholder": "Any previous illnesses or conditions",
+      "medicationsPlaceholder": "Current medications (if any)",
+      "recording": "Recording symptoms..."
+    },
+    "serviceSelection": {
+      "title": "Service Required",
+      "priority": "Priority Level",
+      "normal": "Normal",
+      "high": "High",
+      "emergency": "Emergency",
+      "services": {
+        "consultation": "General Consultation",
+        "videoConsultation": "Video Consultation", 
+        "vaccination": "Vaccination",
+        "healthCheckup": "Health Checkup",
+        "medicineCollection": "Medicine Collection",
+        "emergencyCare": "Emergency Care"
+      }
+    },
+    "photo": {
+      "title": "Patient Photo (Optional)",
+      "takePhoto": "Take Photo",
+      "description": "Optional: Take a photo for patient records"
+    },
+    "actions": {
+      "resetForm": "Reset Form",
+      "cancel": "Cancel", 
+      "register": "Register Patient",
+      "registering": "Registering..."
+    },
+    "success": {
+      "title": "Patient Registered Successfully!",
+      "message": "{name} has been added to the system and queue.",
+      "service": "Service:",
+      "priority": "Priority:",
+      "goToDashboard": "Go to Dashboard"
+    },
+    "validation": {
+      "nameRequired": "Patient name is required",
+      "ageRequired": "Please enter a valid age (1-120)",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter a valid 10-digit phone number",
+      "villageRequired": "Village/City is required",
+      "symptomsRequired": "Please describe the symptoms or reason for visit"
+    }
+  },
+  "videoCall": {
+    "title": "Video Consultation",
+    "connecting": "Connecting to video call...",
+    "callError": "Call Error",
+    "retry": "Retry",
+    "backToDashboard": "Back to Dashboard",
+    "patientInfo": {
+      "title": "Patient Information",
+      "name": "Name:",
+      "age": "Age:",
+      "village": "Village:",
+      "phone": "Phone:",
+      "symptoms": "Current Symptoms:",
+      "previousVisits": "Previous Visits:"
+    },
+    "notes": {
+      "title": "Consultation Notes",
+      "doctorNotes": "Doctor's Notes:",
+      "staffNotes": "Staff Notes:",
+      "doctorPlaceholder": "Doctor's observations and recommendations...",
+      "staffPlaceholder": "Staff observations, translation notes, etc..."
+    },
+    "controls": {
+      "staffControls": "Staff Controls:",
+      "endCall": "End Call"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "translationActive": "✓ Translation Active",
+      "needTranslation": "Need Translation Help",
+      "sendPrescription": "Send Prescription",
+      "scheduleFollowup": "Schedule Follow-up",
+      "generateReport": "Generate Report"
+    },
+    "connection": {
+      "good": "good connection",
+      "medium": "medium connection", 
+      "poor": "poor connection"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "open": "Open",
+    "closed": "Closed",
+    "minutes": "minutes",
+    "hours": "hours",
+    "days": "days",
+    "weeks": "weeks",
+    "months": "months"
+  }
+}

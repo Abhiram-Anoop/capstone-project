@@ -1,0 +1,93 @@
+{
+  "title": "लक्षण मूल्यांकन",
+  "description": "कृपया अपनी व्यक्तिगत जानकारी प्रदान करें और उन सभी लक्षणों का चयन करें जिनका आप वर्तमान में अनुभव कर रहे हैं।",
+  "progress": {
+    "label": "रोगी की जानकारी और लक्षण",
+    "step": "चरण {{step}} का 2"
+  },
+  "step1": {
+    "title": "रोगी का विवरण",
+    "description": "कृपया अपनी व्यक्तिगत जानकारी प्रदान करें।",
+    "nameLabel": "पूरा नाम",
+    "namePlaceholder": "जॉन डो",
+    "ageLabel": "उम्र",
+    "agePlaceholder": "30",
+    "bpLabel": "रक्तचाप (mmHg)",
+    "bpPlaceholder": "120/80",
+    "pulseLabel": "पल्स रेट (bpm)",
+    "pulsePlaceholder": "75",
+    "continueButton": "जारी रखें"
+  },
+  "step2": {
+    "filterTitle": "श्रेणी के अनुसार फ़िल्टर करें",
+    "summaryTitle": "चयनित लक्षण",
+    "selectionTitle": "अपने लक्षणों का चयन करें",
+    "selectionDescription": "अपनी वर्तमान स्थिति पर लागू होने वाले सभी लक्षणों की जाँच करें।",
+    "backButton": "वापस",
+    "submitButton": "लक्षण मूल्यांकन जमा करें"
+  },
+  "alerts": {
+    "nameAgeRequired": "कृपया अपना नाम और उम्र भरें।",
+    "symptomRequired": "कृपया कम से कम एक लक्षण चुनें।",
+    "submitSuccess": "आपका लक्षण मूल्यांकन सफलतापूर्वक जमा कर दिया गया है!",
+    "submitError": "आपका डेटा जमा करने में एक त्रुटि हुई। कृपया पुन: प्रयास करें।"
+  },
+  "categories": {
+    "all": "सभी",
+    "general": "सामान्य",
+    "respiratory": "श्वसन",
+    "neurological": "तंत्रिका संबंधी",
+    "sensory": "संवेदी",
+    "gastrointestinal": "जठरांत्र"
+  },
+  "symptoms": {
+    "fever": { "name": "बुखार", "category": "General" },
+    "fatigue": { "name": "थकान", "category": "General" },
+    "chills": { "name": "ठंड लगना", "category": "General" },
+    "weakness": { "name": "कमजोरी", "category": "General" },
+    "cough": { "name": "खांसी", "category": "Respiratory" },
+    "shortness-breath": { "name": "सांस की तकलीफ", "category": "Respiratory" },
+    "chest-pain": { "name": "सीने में दर्द", "category": "Respiratory" },
+    "sore-throat": { "name": "गले में खराश", "category": "Respiratory" },
+    "headache": { "name": "सरदर्द", "category": "Neurological" },
+    "dizziness": { "name": "चक्कर आना", "category": "Neurological" },
+    "confusion": { "name": "भ्रम", "category": "Neurological" },
+    "memory-loss": { "name": "याददाश्त की समस्या", "category": "Neurological" },
+    "vision-changes": { "name": "दृष्टि में परिवर्तन", "category": "Sensory" },
+    "hearing-loss": { "name": "सुनने में समस्या", "category": "Sensory" },
+    "ringing-ears": { "name": "कानों में बजना", "category": "Sensory" },
+    "nausea": { "name": "जी मिचलाना", "category": "Gastrointestinal" },
+    "vomiting": { "name": "उल्टी", "category": "Gastrointestinal" },
+    "diarrhea": { "name": "दस्त", "category": "Gastrointestinal" },
+    "abdominal-pain": { "name": "पेट दर्द", "category": "Gastrointestinal" }
+  },
+  "vocalInput": {
+    "title": "आवाज द्वारा लक्षण मूल्यांकन",
+    "goBackButton": "← वापस जाएं",
+    "prompts": [
+      "आपका नाम क्या है?",
+      "आपकी उम्र क्या है?",
+      "आपका रक्तचाप क्या है?",
+      "आपके शरीर का तापमान क्या है?",
+      "कृपया अपने लक्षणों का वर्णन करें।"
+    ],
+    "labels": {
+      "name": "पूरा नाम",
+      "age": "उम्र",
+      "bloodPressure": "रक्तचाप",
+      "temperature": "तापमान",
+      "symptoms": "लक्षण"
+    },
+    "buttons": {
+      "back": "वापस",
+      "next": "अगला",
+      "submit": "मूल्यांकन जमा करें"
+    },
+    "alerts": {
+      "noSupport": "आपका ब्राउज़र वेब स्पीच एपीआई का समर्थन नहीं करता है। कृपया गूगल क्रोम का उपयोग करें।",
+      "allDetailsRequired": "कृपया सभी आवश्यक विवरण और लक्षण प्रदान करें।",
+      "submitError": "आपका डेटा जमा करने में एक त्रुटि हुई। कृपया पुन: प्रयास करें।"
+    }
+  }
+}
+
